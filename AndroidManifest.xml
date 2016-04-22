@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:"http://schemas.android.com/apk/res/android" android:versionCode="2" android:versionName="1.0" android:installLocation="auto" package="com.andromo.dev534456.app491762" platformBuildVersionCode="22" platformBuildVersionName="5.1.1-1819727">
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="22" />
+    <application android:label="0x7f050021" android:icon="0x7f0200c9" android:name="AndromoAcraApplication" android:logo="0x7f0200b7" android:hardwareAccelerated="true">
+        <activity android:theme="0x7f080066" android:label="0x7f050021" android:name=".Facebook52204" android:screenOrientation="unspecified" android:parentActivityName="com.andromo.dev534456.app491762.Dashboard_000">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.andromo.dev534456.app491762.Dashboard_000" />
+        </activity>
+        <activity android:theme="0x7f080066" android:label="0x7f050021" android:name=".Website306543" android:screenOrientation="unspecified" android:parentActivityName="com.andromo.dev534456.app491762.Dashboard_000">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.andromo.dev534456.app491762.Dashboard_000" />
+        </activity>
+        <activity android:theme="0x7f080066" android:label="0x7f050021" android:name=".About47056" android:screenOrientation="unspecified" android:parentActivityName="com.andromo.dev534456.app491762.Dashboard_000">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.andromo.dev534456.app491762.Dashboard_000" />
+        </activity>
+        <activity android:theme="0x7f080066" android:label="0x7f050021" android:name=".Contact22739" android:screenOrientation="unspecified" android:parentActivityName="com.andromo.dev534456.app491762.Dashboard_000">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.andromo.dev534456.app491762.Dashboard_000" />
+        </activity>
+        <activity android:theme="0x7f080088" android:label="0x7f050021" android:name=".Dashboard_000" android:screenOrientation="unspecified">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <supports-screens android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-feature android:name="android.hardware.location.gps" android:required="false" />
+</manifest>
